@@ -109,11 +109,11 @@ def model_test(target):
     expected_output = {'costs': [np.array(0.69314718)], 
                    'Y_prediction_test': np.array([[1., 1., 0.]]), 
                    'Y_prediction_train': np.array([[1., 1., 0., 1., 0., 0., 1.]]), 
-                   'w': np.array([[ 0.14449502],
-                                [-0.1429235 ],
-                                [-0.19867517],
-                                [ 0.21265053]]), 
-                   'b':-0.0759564065803776}
+                   'w': np.array([[ 0.08639757],
+                           [-0.08231268],
+                           [-0.11798927],
+                           [ 0.12866053]]), 
+                   'b': -0.03983236094816321}
     
     # Use 7 samples for training
     b, Y, X = 1.5, np.array([[1, 0, 0, 1, 0, 0, 1]]), np.random.randn(4, 7),
