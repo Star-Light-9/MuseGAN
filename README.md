@@ -16,3 +16,5 @@ To generate polyphonic music of multiple tracks (instruments) using Generative A
 | **Visualization & Analysis** | [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/stable/contents.html) [![pretty_midi](https://img.shields.io/badge/pretty__midi-008080?style=for-the-badge)](https://craffel.github.io/pretty-midi/) [![pypianoroll](https://img.shields.io/badge/pypianoroll-FF69B4?style=for-the-badge)](https://pypianoroll.readthedocs.io/en/latest/) |
 
 
+## 📊Data
+The [LPD-5 Cleansed dataset](https://www.kaggle.com/datasets/cloudoak/lpd-5-cleansed) is a curated version of the original Lakh Pianoroll Dataset (LPD-5), which itself is derived from the Lakh MIDI Dataset (LMD) containing MIDI files from various sources. It consists of over 60,000 multi-track piano-rolls, each aligned to 4/4 time.
