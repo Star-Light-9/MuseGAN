@@ -41,6 +41,7 @@ If a conditional track input is provided, A Temporal Encoder is used to encode t
 
 ### Overall Structure
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/d6bef2d8-74dd-438e-8bcf-a2204d3a3ea2" />
+
 This incorporates both Temporal Generators and Bar Generators and consists of a Global Latent Vector, z, Global Temporal Vector, Z<sub>t</sub>, Track Dependent Latent Vectors, Z<sub>i</sub>, and Track Dependent Temporal Vectors, Z<sub>it</sub> 
 
 ## 📊Data
