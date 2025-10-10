@@ -21,6 +21,8 @@ The whole MuseGAN model is primarily split into 2 parts - Multitrack and Tempora
 ### Multi-Track Model
 This is further split into 3 types of models: Composer, Jamming and Hybrid models
 
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/3521f6d0-e0fa-4ce6-a3bd-b05c0f9eec4e" />
+
 - #### Composer Model
 It is responsible for creating a uniformity across instruments of all the tracks by using a single generator and a single discriminator.
 - #### Jamming Model
@@ -39,7 +41,7 @@ If a conditional track input is provided, A Temporal Encoder is used to encode t
 
 ### Overall Structure
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/d6bef2d8-74dd-438e-8bcf-a2204d3a3ea2" />
-
+This incorporates both Temporal Generators and Bar Generators and consists of a Global Latent Vector, z, Global Temporal Vector, Z<sub>t</sub>, Track Dependent Latent Vectors, Z<sub>i</sub>, and Track Dependent Temporal Vectors, Z<sub>it</sub> 
 
 ## 📊Data
 The [LPD-5 Cleansed dataset](https://www.kaggle.com/datasets/cloudoak/lpd-5-cleansed) is a curated version of the original Lakh Pianoroll Dataset (LPD-5), which itself is derived from the Lakh MIDI Dataset (LMD) containing MIDI files from various sources. It consists of over 60,000 multi-track piano-rolls, each aligned to 4/4 time. 
