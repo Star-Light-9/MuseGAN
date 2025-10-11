@@ -1,0 +1,18 @@
+site_name: MUSEGAN
+
+theme:
+  name: material
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  palette:
+
+    scheme: slate
+    primary: indigo
+    accent: deep purple
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Star-Light-9/MuseGAN
