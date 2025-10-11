@@ -1,6 +1,6 @@
 # MuseGAN
 
-## 🎯Aim
+## 🎯 Aim
 To generate polyphonic music of multiple tracks (instruments) using Generative Adversarial Networks (GANs). The models aims to generate 4 bars of multitrack coherent music from scratch for 5 instruments. We also aim to extend the model for Human-AI collaboration where 4 instrument tracks can be conditionally generated on the basis of one Human input track.
 
 ## ⚙️ Tech Stack
@@ -15,7 +15,7 @@ To generate polyphonic music of multiple tracks (instruments) using Generative A
 | **Tools** | [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/doc) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/docs) |
 | **Visualization & Analysis** | [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/stable/contents.html) [![pretty_midi](https://img.shields.io/badge/pretty__midi-008080?style=for-the-badge)](https://craffel.github.io/pretty-midi/) [![pypianoroll](https://img.shields.io/badge/pypianoroll-FF69B4?style=for-the-badge)](https://pypianoroll.readthedocs.io/en/latest/) |
 
-## Model Structure
+## 💃 Model Structure
 The whole MuseGAN model is primarily split into 2 parts - Multitrack and Temporal Models.
 
 ### Multi-Track Model
@@ -44,5 +44,20 @@ If a conditional track input is provided, A Temporal Encoder is used to encode t
 
 This incorporates both Temporal Generators and Bar Generators and consists of a Global Latent Vector, z, Global Temporal Vector, Z<sub>t</sub>, Track Dependent Latent Vectors, Z<sub>i</sub>, and Track Dependent Temporal Vectors, Z<sub>it</sub> 
 
-## 📊Data
+## 📊 Data
 The [LPD-5 Cleansed dataset](https://www.kaggle.com/datasets/cloudoak/lpd-5-cleansed) is a curated version of the original Lakh Pianoroll Dataset (LPD-5), which itself is derived from the Lakh MIDI Dataset (LMD) containing MIDI files from various sources. It consists of over 60,000 multi-track piano-rolls, each aligned to 4/4 time. 
+
+## 🚂 How To Train The Model
+- Install the dependencies
+  
+    `pip install -r requirements`
+  
+- Go to the particular version folder you want to train and download the `.ipynb` file.
+- Run the Nbk locally or in JupyterLab Notebooks 
+- To access the trained checkpoint for a particular model, check the `README.md` file in the particular Version's folder
+
+## 👏 Acknowledgement
+- Thanks to everyone at CoC and ProjectX for helping us in the progress of this project. 
+- Special shoutout to our mentors [Kavya Rambhia](https://github.com/kavya-r30) and [Swayam Shah](https://github.com/sonu0305) for their support and guidance throughout
+
+**Made By [Pratyush Rao](https://github.com/PratyushRao) and [Yashasvi Choudhary](https://github.com/Star-Light-9)**
