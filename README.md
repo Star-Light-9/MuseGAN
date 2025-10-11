@@ -49,7 +49,9 @@ The [LPD-5 Cleansed dataset](https://www.kaggle.com/datasets/cloudoak/lpd-5-clea
 
 ## 🚂 How To Train The Model
 - Install the dependencies
-    pip install -r requirements
+  
+    `pip install -r requirements`
+  
 - Go to the particular version folder you want to train and download the `.ipynb` file.
 - Run the Nbk locally or in JupyterLab Notebooks 
 - To access the trained checkpoint for a particular model, check the `README.md` file in the particular Version's folder
