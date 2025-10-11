@@ -1,7 +1,8 @@
 # MuseGAN
 
 ## 🎯 Aim
-To generate polyphonic music of multiple tracks (instruments) using Generative Adversarial Networks (GANs). The models aims to generate 4 bars of multitrack coherent music from scratch for 5 instruments. We also aim to extend the model for Human-AI collaboration where 4 instrument tracks can be conditionally generated on the basis of one Human input track.
+To generate polyphonic music of multiple tracks (instruments) using Generative Adversarial Networks (GANs). The models aims to generate 4 bars of multitrack coherent music from scratch for 5 instruments. We also aim to extend the model for Human-AI collaboration where 4 instrument tracks can be conditionally generated on the basis of one Human input track. 
+Checkout our docs [here](https://sonu0305.github.io/MuseGAN-docs/) 
 
 ## ⚙️ Tech Stack
 
