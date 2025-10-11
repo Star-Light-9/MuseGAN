@@ -8,6 +8,11 @@ Takes in the Global Latent Vector,  Z, and Track-dependent Latent Vector, Z<sub>
 ### Bar Generator
 Takes all the 4 Latent Vectors and generates the pianoroll Bar-by-Bar for every track.
 
+# Outputs
+
+<img width="1418" height="1178" alt="image" src="https://github.com/user-attachments/assets/9d6c568a-a046-4b85-9151-7cff35801390" />
+
+Outputs of this model 120 epochs
 
 # Checkpoints
 Checkpoints after 120 epochs for this model can be found [here](https://www.kaggle.com/datasets/pratyushrao/musegan-trained-checkpoint-120-epochs/data/data)
