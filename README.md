@@ -15,7 +15,7 @@ To generate polyphonic music of multiple tracks (instruments) using Generative A
 | **Tools** | [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/doc) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/docs) |
 | **Visualization & Analysis** | [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/stable/contents.html) [![pretty_midi](https://img.shields.io/badge/pretty__midi-008080?style=for-the-badge)](https://craffel.github.io/pretty-midi/) [![pypianoroll](https://img.shields.io/badge/pypianoroll-FF69B4?style=for-the-badge)](https://pypianoroll.readthedocs.io/en/latest/) |
 
-## Model Structure
+## 💃 Model Structure
 The whole MuseGAN model is primarily split into 2 parts - Multitrack and Temporal Models.
 
 ### Multi-Track Model
@@ -46,3 +46,7 @@ This incorporates both Temporal Generators and Bar Generators and consists of a 
 
 ## 📊Data
 The [LPD-5 Cleansed dataset](https://www.kaggle.com/datasets/cloudoak/lpd-5-cleansed) is a curated version of the original Lakh Pianoroll Dataset (LPD-5), which itself is derived from the Lakh MIDI Dataset (LMD) containing MIDI files from various sources. It consists of over 60,000 multi-track piano-rolls, each aligned to 4/4 time. 
+
+## 👏 Acknowledgement
+- Thanks to everyone at CoC and ProjectX for helping us in the progress of this project. 
+- Special shoutout to our mentors [Kavya Rambhia](https://github.com/kavya-r30) and [Swayam Shah](https://github.com/sonu0305) for their support and guidance throughout
